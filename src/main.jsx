@@ -3,14 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-import './ejercicio1.js'
-import './ejercicio2.js'
-import './ejercicio3.js'
-import './ejercicio4.js'
-import './ejercicio5.js'
-import './ejercicio6.js'
-import './ejercicio7.js'
-import './ejercicio8.js'
+import './ejercicio1.jsx'
+import './ejercicio2.jsx'
+import './ejercicio3.jsx'
+import './ejercicio4.jsx'
+import './ejercicio5.jsx'
+import './ejercicio6.jsx'
+import './ejercicio7.jsx'
+import './ejercicio8.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

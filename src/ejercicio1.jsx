@@ -14,7 +14,7 @@ botón, el color de fondo de la página debe cambiar a un color aleatorio.
 import Layout from './layout';
 import {useState} from 'react'
 
-const CambiadorColor = () => {
+const Ejercicio1 = () => {
     const [fondo, setFondo] = useState('rgb(255,255,255)');
 
     const cambiarColor = () => {
@@ -46,4 +46,4 @@ const CambiadorColor = () => {
     );
 };
 
-export default CambiadorColor;
+export default Ejercicio1;

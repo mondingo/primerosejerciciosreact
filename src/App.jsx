@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import CambiadorColor from './ejercicio1'
+import Ejercicio1 from './ejercicio1'
 import Ejercicio2 from './ejercicio2'
 import Ejercicio3 from  './ejercicio3'
 import Ejercicio4 from './ejercicio4'
