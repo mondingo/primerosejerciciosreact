@@ -1,5 +1,5 @@
 export default defineConfig({
-  base: '/Ejercicios-variados-con-React/', 
+  base: '/primerosejerciciosreact/', 
   build: {
     outDir: 'docs', // Ahora Vite escribirá en /docs en lugar de /dist
   },
