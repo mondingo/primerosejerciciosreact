@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/primerosejerciciosreact/', 
-  plugins: [react()],
+  base: '/primerosejerciciosreact/',
+  plugins: [react(), tailwindcss()],
   build: {
-    outDir: 'docs', // Asegúrate de que coincida con la carpeta que lee GitHub Pages
-  }
+    outDir: 'docs',
+  },
 })
