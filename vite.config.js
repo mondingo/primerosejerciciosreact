@@ -1,10 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
+  base: '/Ejercicios-variados-con-React/', 
+  build: {
+    outDir: 'docs', // Ahora Vite escribirá en /docs en lugar de /dist
+  },
+  plugins: [react()],
 })
